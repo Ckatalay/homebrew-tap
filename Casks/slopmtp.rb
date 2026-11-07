@@ -1,8 +1,8 @@
 cask "slopmtp" do
-  version "0.1.0"
-  sha256 "2e05637f287bfc2eba5eb8db05dda00f1e8dbea7d41cf5a3674428c4c390f989"
+  version "0.1.1"
+  sha256 "83c0c878cdb33c41d5b69ed4323ab3b329893733d7f643b993ae011763ce54a4"
 
-  url "https://github.com/Ckatalay/slopMTP/releases/download/v#{version}/SlopMTP-#{version}.zip"
+  url "https://github.com/Ckatalay/slopMTP/releases/download/v#{version}/slopMTP-#{version}.zip"
   name "slopMTP"
   desc "MTP client for modded Nintendo Switch consoles running DBI or Sphaira"
   homepage "https://github.com/Ckatalay/slopMTP"
@@ -14,12 +14,12 @@ cask "slopmtp" do
 
   depends_on macos: :sonoma
 
-  app "SlopMTP.app"
+  app "slopMTP.app"
 
   zap trash: [
-    "~/Library/Application Support/SlopMTP",
+    "~/Library/Application Support/slopMTP",
     "~/Library/Caches/io.github.ckatalay.SlopMTP",
-    "~/Library/Caches/SlopMTP",
+    "~/Library/Caches/slopMTP",
     "~/Library/Preferences/io.github.ckatalay.SlopMTP.plist",
   ]
 end
