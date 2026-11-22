@@ -1,6 +1,6 @@
 cask "slopmtp" do
-  version "0.1.1"
-  sha256 "83c0c878cdb33c41d5b69ed4323ab3b329893733d7f643b993ae011763ce54a4"
+  version "0.1.2"
+  sha256 "8b0e7070baacaf25c7ca380bdb4bd7e0a543a977786f3bd2d27abe0edb88d3eb"
 
   url "https://github.com/Ckatalay/slopMTP/releases/download/v#{version}/slopMTP-#{version}.zip"
   name "slopMTP"
